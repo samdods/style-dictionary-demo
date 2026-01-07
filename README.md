@@ -18,9 +18,10 @@ You'll find the CSS output written `build/css/vars.css`.
 
 You can play around with the demo by replacing the content of the following files:
 
-- primitives.json
-- semantics.json
-- semantics-dark.json
+tokens/
+↳ primitives.json
+↳ semantics.json
+↳ semantics-dark.json
 
 The JSON can be exported from Figma in [DTCG](https://www.w3.org/community/design-tokens/) standard format using the [Prism Token Exporter - W3C Token JSON](https://www.figma.com/community/plugin/1479197616943612145/prism-token-exporter-w3c-token-json).
 
