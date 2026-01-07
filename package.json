@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "style-dictionary": "^5.1.1"
   }

@@ -7,8 +7,8 @@ const sdLight = new StyleDictionary(Light);
 const sdDark = new StyleDictionary(Dark);
 
 // Build both themes
-sdLight.buildAllPlatforms()
-sdDark.buildAllPlatforms()
+await sdLight.buildAllPlatforms()
+await sdDark.buildAllPlatforms()
 
 // Merge
 const lightPath = 'build/css/light/vars.css';
