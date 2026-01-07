@@ -30,3 +30,12 @@ The JSON can be exported from Figma in [DTCG](https://www.w3.org/community/desig
 (The build script assumes all primitives are namespaced under `primitives`, such as `primitives.color.gray.100`. If primitives are namespaced differently in your Figma designs, the build script must be updated accordingly.)
 
 Style Dictionary provides an [online tool](https://styledictionary.com) to convert from JSON or a ZIP of tokens into DTCG format.
+
+## Extending for Multi-Brand
+
+This can easily be extended for multiple brands, in the same way it works for light mode vs dark mode.
+
+The build script would be updated to either:
+
+* produce separate output CSS files for each brand, which can be swapped in at build time, if building separate deployables per brand; or
+* combine all brands into the same CSS file, if dynamic brand switching is required in the deployed app.
