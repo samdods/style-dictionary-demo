@@ -1,0 +1,60 @@
+{
+    "color": {
+        "background": {
+            "primary": {
+                "$type": "color",
+                "$value": "{primitives.color.blue.700}"
+            },
+            "secondary": {
+                "$type": "color",
+                "$value": "{primitives.color.gray.100}"
+            }
+        },
+        "text": {
+            "default": {
+                "$type": "color",
+                "$value": "{primitives.color.gray.500}"
+            },
+            "link": {
+                "$type": "color",
+                "$value": "{primitives.color.blue.700}"
+            }
+        }
+    },
+    "spacing": {
+        "small": {
+            "$type": "dimension",
+            "$value": "{primitives.spacing.sm}"
+        },
+        "medium": {
+            "$type": "dimension",
+            "$value": "{primitives.spacing.md}"
+        },
+        "large": {
+            "$type": "dimension",
+            "$value": "{primitives.spacing.lg}"
+        }
+    },
+    "font": {
+        "size": {
+            "body": {
+                "$type": "dimension",
+                "$value": "{primitives.font.size.md}"
+            },
+            "heading": {
+                "$type": "dimension",
+                "$value": "{primitives.font.size.lg}"
+            }
+        },
+        "weight": {
+            "body": {
+                "$type": "number",
+                "$value": "{primitives.font.weight.regular}"
+            },
+            "heading": {
+                "$type": "number",
+                "$value": "{primitives.font.weight.bold}"
+            }
+        }
+    }
+}

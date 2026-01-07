@@ -1,0 +1,66 @@
+{
+    "primitives": {
+        "color": {
+            "blue": {
+                "500": {
+                    "$type": "color",
+                    "$value": "#3366ff"
+                },
+                "700": {
+                    "$type": "color",
+                    "$value": "#0044cc"
+                }
+            },
+            "gray": {
+                "100": {
+                    "$type": "color",
+                    "$value": "#f5f5f5"
+                },
+                "500": {
+                    "$type": "color",
+                    "$value": "#999999"
+                }
+            }
+        },
+        "spacing": {
+            "sm": {
+                "$type": "dimension",
+                "$value": "8px"
+            },
+            "md": {
+                "$type": "dimension",
+                "$value": "16px"
+            },
+            "lg": {
+                "$type": "dimension",
+                "$value": "24px"
+            }
+        },
+        "font": {
+            "size": {
+                "sm": {
+                    "$type": "dimension",
+                    "$value": "12px"
+                },
+                "md": {
+                    "$type": "dimension",
+                    "$value": "16px"
+                },
+                "lg": {
+                    "$type": "dimension",
+                    "$value": "20px"
+                }
+            },
+            "weight": {
+                "regular": {
+                    "$type": "number",
+                    "$value": 400
+                },
+                "bold": {
+                    "$type": "number",
+                    "$value": 700
+                }
+            }
+        }
+    }
+}
